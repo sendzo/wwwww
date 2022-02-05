@@ -8,8 +8,8 @@ $form = array(
     'success_redirect' => '',
     'sendIpAddress' => true,
     'email' => array(
-    'from' => 'qwaszx19111999@gmail.com',
-    'to' => 'besprozvannykh.aa@gmail.com'
+    'from' => '',
+    'to' => ''
     ),
     'fields' => array(
     'name' => array(
@@ -30,22 +30,13 @@ $form = array(
     'required' => 'Field \'Email\' is required.'
     )
     ),
-    'agree' => array(
+    'message' => array(
     'order' => 3,
-    'type' => 'checkbox',
-    'label' => 'I accept the Terms of Service',
+    'type' => 'string',
+    'label' => 'Address',
     'required' => true,
     'errors' => array(
-    'required' => 'Field \'I accept the Terms of Service\' is required.'
-    )
-    ),
-    'text' => array(
-    'order' => 4,
-    'type' => 'string',
-    'label' => 'Поле ввода',
-    'required' => false,
-    'errors' => array(
-    'required' => 'Field \'Поле ввода\' is required.'
+    'required' => 'Field \'Address\' is required.'
     )
     ),
     )
